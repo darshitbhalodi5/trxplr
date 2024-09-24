@@ -198,7 +198,7 @@ export default function LoginDialog() {
       game.myPlayer.setPlayerTexture(avatars[avatarIndex].name)
       game.network.readyToConnect()
       dispatch(setLoggedIn(true))
-      game.showWelcomePopup()
+      // game.showWelcomePopup()
     }
   }
 
